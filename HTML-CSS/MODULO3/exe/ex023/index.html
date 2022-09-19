@@ -12,11 +12,17 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;  /*Alinhamento Horizontal*/ 
+            vertical-align: middle; /*Alianhamento Vertical*/
+        }
+        td.numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -38,12 +44,12 @@
         <tr><!--Segunda linha da tabela-->
             <td>A2</td>
             <td>B2</td>
-            <td>B3</td>
+            <td class="numero">B3</td>
         </tr>
         <tr> <!--Terceira linha da tabela-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr> <!--Quarta  linha da tabela-->
             <td>A4</td>
